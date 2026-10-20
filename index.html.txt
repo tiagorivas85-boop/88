@@ -17,13 +17,11 @@
 
     <script>
         EJS_player = "#game";
-        EJS_core = "snes"; // Mudamos o núcleo para Super Nintendo!
+        EJS_core = "snes";
         EJS_gameName = "Top Gear";
-        EJS_color = "#0055ff"; // Cor azul combinando com o jogo
-        
+        EJS_color = "#0055ff";
         EJS_pathtodata = "https://emulatorjs.org"; 
-        EJS_gameUrl = "topgear.sfc"; // Nome exato do arquivo do jogo que você vai subir
-
+        EJS_gameUrl = "topgear.sfc"; 
         EJS_startOnLoaded = true;        
     </script>
     
