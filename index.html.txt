@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Mario Kart 64 Online</title>
+    <title>Top Gear Online (SNES)</title>
     <style>
         html, body { margin: 0; padding: 0; width: 100%; height: 100%; background-color: #000; overflow: hidden; }
         #game-container { width: 100%; height: 100%; }
@@ -17,18 +17,16 @@
 
     <script>
         EJS_player = "#game";
-        EJS_core = "n64"; 
-        EJS_gameName = "Mario Kart 64";
-        EJS_color = "#e50914"; 
+        EJS_core = "snes"; // Mudamos o núcleo para Super Nintendo!
+        EJS_gameName = "Top Gear";
+        EJS_color = "#0055ff"; // Cor azul combinando com o jogo
         
-        // Mudança para a versão estável fixa para evitar erros de rede:
         EJS_pathtodata = "https://emulatorjs.org"; 
-        EJS_gameUrl = "mariokart64.z64"; // Certifique-se de que o arquivo no seu GitHub tem exatamente este nome!
+        EJS_gameUrl = "topgear.sfc"; // Nome exato do arquivo do jogo que você vai subir
 
         EJS_startOnLoaded = true;        
     </script>
     
-    <!-- Loader atualizado para a versão estável -->
     <script src="https://emulatorjs.orgloader.js"></script>
 
 </body>
